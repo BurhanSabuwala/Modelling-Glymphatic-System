@@ -163,7 +163,7 @@ for n = 1:m
         CRif(n+1,1) =0;
     end
     
-    if rem(n,24*5) == 0                   % Tweakable parameter = time of day when Rifampicin is taken 
+    if rem(n,24*2) == 0                   % Tweakable parameter = time of day when Rifampicin is taken 
         CRif(n+1,1) = 10;               % 10 mg/ml serum is the peak
     end
     
