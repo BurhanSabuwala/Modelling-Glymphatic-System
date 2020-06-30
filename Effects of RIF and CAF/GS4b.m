@@ -110,7 +110,7 @@ k10 = (2.7e-5)/24;   % normal loss of LRP1 with aging, fraction/hr
 
 k12 = 0.000073/24; % loss of effective microglia over time (become about 80% dystrophic by 60 yo)
 
-kpgp_increment = 1.45; % Increase in Flow rates 
+kpgp_increment = 1.45; % Increase in Flow rates  From Qosa et al results for Mouse
 
 % equations
 
